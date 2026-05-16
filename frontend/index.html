@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yash Khadagta — ML Engineer & Data Scientist</title>
+  <meta name="description" content="Portfolio of Yash Khadagta — B.Tech CS student specializing in Machine Learning, Data Science, and full-stack development. Based in Jaipur, India."/>
+  <meta property="og:title"       content="Yash Khadagta — ML Engineer"/>
+  <meta property="og:description" content="B.Tech CS student building intelligent systems — from phishing-detection middleware to predictive analytics models."/>
+  <meta property="og:type"        content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── LOADER ─────────────────────────────────────────────────── -->
+<div id="loader">
+  <div class="ld-name">YK</div>
+  <div class="ld-bar"><div class="ld-fill"></div></div>
+</div>
+
+<!-- ── NAV ───────────────────────────────────────────────────── -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">YK.</a>
+  <ul class="nav-links">
+    <li><a href="#about"><span class="nav-num">01.</span>About</a></li>
+    <li><a href="#skills"><span class="nav-num">02.</span>Skills</a></li>
+    <li><a href="#projects"><span class="nav-num">03.</span>Projects</a></li>
+    <li><a href="#experience"><span class="nav-num">04.</span>Experience</a></li>
+    <li><a href="#certifications"><span class="nav-num">05.</span>Certs</a></li>
+    <li><a href="#contact"><span class="nav-num">06.</span>Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hbg"><span></span><span></span><span></span></div>
+</nav>
+<div class="mob-nav" id="mobNav">
+  <a href="#about"          onclick="closeMob()">About</a>
+  <a href="#skills"         onclick="closeMob()">Skills</a>
+  <a href="#projects"       onclick="closeMob()">Projects</a>
+  <a href="#experience"     onclick="closeMob()">Experience</a>
+  <a href="#certifications" onclick="closeMob()">Certs</a>
+  <a href="#contact"        onclick="closeMob()">Contact</a>
+</div>
+
+<!-- ── HERO ──────────────────────────────────────────────────── -->
+<section id="hero" style="min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:0 5%;">
+  <div class="hero-grid"></div>
+  <div class="hero-glow" id="heroGlow"></div>
+  <div class="hero-inner">
+    <div class="hero-tag">Available for opportunities</div>
+    <h1 class="hero-name"><span class="first">Yash </span><span class="last">Khadagta</span></h1>
+    <p class="hero-sub">ML Engineer &amp; Data Science Enthusiast</p>
+    <p class="hero-tagline">B.Tech CS student building intelligent systems — from phishing-detection middleware to predictive analytics models. Turning data into decisions.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+        View Projects
+      </a>
+      <a href="#contact" class="btn btn-outline">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Contact Me
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>scroll</span><div class="scroll-line"></div></div>
+</section>
+
+<!-- ── ABOUT ─────────────────────────────────────────────────── -->
+<section id="about">
+  <div class="about-text reveal">
+    <div class="sec-label">01. About</div>
+    <h2 class="sec-title">Building smart<br><span>systems</span> with data</h2>
+    <p>I'm a <strong>B.Tech Computer Science student</strong> at Poornima Institute of Engineering &amp; Technology, Jaipur, with a strong focus on Machine Learning and Data Science.</p>
+    <p>I've designed practical ML systems — including a <strong>Random Forest-powered phishing-detection Chrome Extension</strong> and regression-based forecasting models — gaining hands-on experience across the full pipeline from data preprocessing to production deployment.</p>
+    <p>I thrive in AI-focused environments where <strong>data-driven problem solving</strong> drives real impact. When I'm not building models, I'm exhibiting at technical fests and competing in national hackathons.</p>
+  </div>
+  <div class="about-stats reveal d2">
+    <div class="stat-card"><div class="stat-num">8+</div><div class="stat-lbl">Projects Built</div></div>
+    <div class="stat-card"><div class="stat-num">10+</div><div class="stat-lbl">Certifications</div></div>
+    <div class="stat-card"><div class="stat-num">2</div><div class="stat-lbl">Internships</div></div>
+    <div class="stat-card"><div class="stat-num">🏆</div><div class="stat-lbl">SIH Winner</div></div>
+  </div>
+</section>
+
+<!-- ── SKILLS ────────────────────────────────────────────────── -->
+<section id="skills" class="sec">
+  <div class="sec-label reveal">02. Skills</div>
+  <h2 class="sec-title reveal">Technical<br><span>Arsenal</span></h2>
+  <div class="skills-grid">
+    <div class="sk-cat c1 reveal">
+      <div class="sk-title">⌨️ Programming Languages</div><div class="sk-line"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">Python</span><span class="sk-tag">Java</span>
+        <span class="sk-tag">C++</span><span class="sk-tag">C</span><span class="sk-tag">SQL</span>
+      </div>
+    </div>
+    <div class="sk-cat c2 reveal d1">
+      <div class="sk-title">🛠️ Tools &amp; Technologies</div><div class="sk-line"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">NumPy</span><span class="sk-tag">Pandas</span>
+        <span class="sk-tag">Matplotlib</span><span class="sk-tag">Seaborn</span>
+        <span class="sk-tag">Scikit-learn</span><span class="sk-tag">Jupyter</span>
+        <span class="sk-tag">Git &amp; GitHub</span><span class="sk-tag">REST APIs</span>
+        <span class="sk-tag">MySQL</span><span class="sk-tag">GCP</span>
+      </div>
+    </div>
+    <div class="sk-cat c3 reveal d2">
+      <div class="sk-title">🧠 Concepts &amp; ML</div><div class="sk-line"></div>
+      <div class="sk-tags">
+        <span class="sk-tag">Random Forest</span><span class="sk-tag">Linear Regression</span>
+        <span class="sk-tag">Supervised Learning</span><span class="sk-tag">Feature Engineering</span>
+        <span class="sk-tag">Cross Validation</span><span class="sk-tag">Model Deployment</span>
+        <span class="sk-tag">OOP</span><span class="sk-tag">DSA</span>
+        <span class="sk-tag">Database Systems</span><span class="sk-tag">ACID Properties</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ──────────────────────────────────────────────── -->
+<section id="projects" class="sec">
+  <div class="sec-label reveal">03. Projects</div>
+  <h2 class="sec-title reveal">Things I've<br><span>Built</span></h2>
+  <div class="proj-grid">
+
+    <div class="proj-card reveal">
+      <div class="proj-num">PROJECT 01 · FEATURED</div>
+      <h3 class="proj-title">Phish Proof AI Middleware</h3>
+      <p class="proj-desc">Browser middleware that classifies URLs as safe or malicious before redirection using a Random Forest model. Integrates Google Safe Browsing API for real-time threat validation with a modular, scalable architecture.</p>
+      <div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">Random Forest</span><span class="stack-tag">Safe Browsing API</span><span class="stack-tag">Chrome Extension</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal d1">
+      <div class="proj-num">PROJECT 02 · FEATURED</div>
+      <h3 class="proj-title">ML Model Deployment – Iris Classifier</h3>
+      <p class="proj-desc">End-to-end ML pipeline with a trained Iris classifier deployed as a live web API. Demonstrates model serialization, REST endpoint design, and production-ready ML serving patterns.</p>
+      <div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">Scikit-learn</span><span class="stack-tag">Flask</span><span class="stack-tag">Model Deployment</span><span class="stack-tag">REST API</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584/ml-model-deployment-iris" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-num">PROJECT 03</div>
+      <h3 class="proj-title">NewsApp</h3>
+      <p class="proj-desc">Dynamic news aggregator that fetches and displays real-time articles via a news API. Features category filtering, clean card-based UI, and responsive design for seamless reading on any device.</p>
+      <div class="proj-stack"><span class="stack-tag">JavaScript</span><span class="stack-tag">News API</span><span class="stack-tag">HTML/CSS</span><span class="stack-tag">REST API</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584/NewsApp" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal d1">
+      <div class="proj-num">PROJECT 04</div>
+      <h3 class="proj-title">News App India</h3>
+      <p class="proj-desc">India-focused news application with curated categories — politics, tech, sports, business. Pulls live headlines from news APIs with a fast, minimal interface optimized for Indian readers.</p>
+      <div class="proj-stack"><span class="stack-tag">JavaScript</span><span class="stack-tag">News API</span><span class="stack-tag">HTML/CSS</span><span class="stack-tag">Responsive UI</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584/News-App-India" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-num">PROJECT 05</div>
+      <h3 class="proj-title">Library Management System</h3>
+      <p class="proj-desc">Full-featured library management system with book cataloguing, member registration, issue/return tracking, and fine calculation. Built with structured database design and a clean admin interface.</p>
+      <div class="proj-stack"><span class="stack-tag">Python / Java</span><span class="stack-tag">MySQL</span><span class="stack-tag">CRUD Operations</span><span class="stack-tag">OOP</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584/Library_Management_System" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal d1">
+      <div class="proj-num">PROJECT 06</div>
+      <h3 class="proj-title">Global Mortality Data Analysis &amp; Prediction</h3>
+      <p class="proj-desc">Exploratory data analysis and Linear Regression model for global mortality rate forecasting. Applied feature engineering and evaluation metrics to derive actionable public-health insights.</p>
+      <div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">Pandas</span><span class="stack-tag">Linear Regression</span><span class="stack-tag">Matplotlib</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-num">PROJECT 07</div>
+      <h3 class="proj-title">Sales Data Analysis</h3>
+      <p class="proj-desc">Cleaned and analyzed real-world sales datasets to identify revenue patterns and purchasing trends. Built visualization dashboards with Pandas and Seaborn to surface actionable business insights.</p>
+      <div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">Pandas</span><span class="stack-tag">Seaborn</span><span class="stack-tag">Matplotlib</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+    <div class="proj-card reveal d1">
+      <div class="proj-num">PROJECT 08</div>
+      <h3 class="proj-title">Hotel Management System</h3>
+      <p class="proj-desc">Full-stack web application with user authentication, admin panel, and structured booking logic. Designed for end-to-end hotel record management with a clean, maintainable backend architecture.</p>
+      <div class="proj-stack"><span class="stack-tag">Full-Stack</span><span class="stack-tag">MySQL</span><span class="stack-tag">Authentication</span><span class="stack-tag">REST API</span></div>
+      <div class="proj-links"><a href="https://github.com/Yash0584" target="_blank" rel="noopener" class="proj-link"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>GitHub</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ─────────────────────────────────────────────── -->
+<section id="experience" class="sec">
+  <div class="sec-label reveal">04. Experience</div>
+  <h2 class="sec-title reveal">Where I've<br><span>Worked</span></h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Jun 2025 – Sep 2025</div>
+      <div class="tl-role">AI/ML Developer</div>
+      <div class="tl-co">KisTechno Software</div>
+      <ul class="tl-ul">
+        <li>Developed an ML-powered Chrome Extension to classify URLs as safe or malicious before redirection.</li>
+        <li>Implemented a Random Forest classification model with a structured feature extraction pipeline.</li>
+        <li>Integrated Google Safe Browsing API for real-time threat verification.</li>
+        <li>Designed modular middleware architecture for scalable browser-based phishing protection.</li>
+      </ul>
+    </div>
+    <div class="tl-item reveal d1">
+      <div class="tl-dot"></div>
+      <div class="tl-date">July 2024</div>
+      <div class="tl-role">Python Developer Intern</div>
+      <div class="tl-co">AryanInfoMatrix Pvt. Ltd.</div>
+      <ul class="tl-ul">
+        <li>Performed data preprocessing and exploratory data analysis using Pandas on structured datasets.</li>
+        <li>Built visualization dashboards with Matplotlib to analyze global disease trends.</li>
+        <li>Applied regression-based predictive modeling for time-series trend forecasting.</li>
+        <li>Documented analytical workflows and model evaluation results for reporting.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ──────────────────────────────────────────────── -->
+<section id="education" class="sec">
+  <div class="sec-label reveal">Education</div>
+  <h2 class="sec-title reveal">Academic<br><span>Background</span></h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-deg">B.Tech – Computer Science &amp; Engineering</div>
+      <div class="edu-sch">Poornima Institute of Engineering &amp; Technology, Jaipur</div>
+      <div class="edu-yr">2023 – 2027</div>
+    </div>
+    <div class="edu-card reveal d1">
+      <div class="edu-deg">Senior Secondary (Class XII)</div>
+      <div class="edu-sch">Kapil GyanPeeth, Jaipur</div>
+      <div class="edu-yr">2023</div>
+    </div>
+    <div class="edu-card reveal d2">
+      <div class="edu-deg">Secondary (Class X)</div>
+      <div class="edu-sch">Kapil GyanPeeth, Jaipur</div>
+      <div class="edu-yr">2021</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATIONS ─────────────────────────────────────────── -->
+<section id="certifications" class="sec">
+  <div class="sec-label reveal">05. Certifications</div>
+  <h2 class="sec-title reveal">Credentials &amp;<br><span>Certifications</span></h2>
+  <p class="reveal" style="color:var(--muted);margin-top:-36px;margin-bottom:40px;font-size:.86rem;">Click any card for a full description and a direct link to view the certificate.</p>
+  <div class="cert-grid">
+    <div class="cert-card reveal"    onclick="openCert('oracle')"><div class="cert-icon">☁️</div><div class="cert-name">Oracle Cloud Infrastructure – Certified Generative AI Professional</div><div class="cert-org">Oracle · 2025</div><span class="cert-badge">Cloud AI</span></div>
+    <div class="cert-card reveal d1" onclick="openCert('gcp')"><div class="cert-icon">📊</div><div class="cert-name">Google Cloud Launchpad – Data Analytics Track</div><div class="cert-org">Google Cloud</div><span class="cert-badge">Data Analytics</span></div>
+    <div class="cert-card reveal d2" onclick="openCert('nptel-python')"><div class="cert-icon">🐍</div><div class="cert-name">Python for Data Science &amp; Computing</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">Programming</span></div>
+    <div class="cert-card reveal"    onclick="openCert('nptel-c')"><div class="cert-icon">💻</div><div class="cert-name">Programming in C</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">Programming</span></div>
+    <div class="cert-card reveal d1" onclick="openCert('nptel-cpp')"><div class="cert-icon">⚙️</div><div class="cert-name">Modern C++</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">Programming</span></div>
+    <div class="cert-card reveal d2" onclick="openCert('nptel-dsa')"><div class="cert-icon">🧮</div><div class="cert-name">Data Structures &amp; Algorithms in Java</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">DSA</span></div>
+    <div class="cert-card reveal"    onclick="openCert('nptel-hack')"><div class="cert-icon">🔐</div><div class="cert-name">Ethical Hacking</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">Security</span></div>
+    <div class="cert-card reveal d1" onclick="openCert('nptel-entre')"><div class="cert-icon">🚀</div><div class="cert-name">Entrepreneurship</div><div class="cert-org">NPTEL · IIT Madras</div><span class="cert-badge">Business</span></div>
+    <div class="cert-card reveal d2" onclick="openCert('mnit')"><div class="cert-icon">🎓</div><div class="cert-name">MNIT Project Expo – Project Presenter</div><div class="cert-org">MNIT Jaipur</div><span class="cert-badge">Exhibition</span></div>
+    <div class="cert-card reveal"    onclick="openCert('dcgc')"><div class="cert-icon">💡</div><div class="cert-name">DCGC Hackathon 2.0 – Participant</div><div class="cert-org">DCGC</div><span class="cert-badge">Hackathon</span></div>
+  </div>
+</section>
+
+<!-- CERT MODAL -->
+<div class="modal-overlay" id="certModal" onclick="overlayClose(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeCert()">&#x2715;</button>
+    <div id="mIcon"></div><div id="mTitle"></div><div id="mOrg"></div><div id="mDesc"></div>
+    <div class="modal-actions">
+      <a id="mLink" href="#" target="_blank" rel="noopener" class="btn btn-primary" style="font-size:.78rem;padding:10px 20px;">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View Certificate
+      </a>
+      <button onclick="closeCert()" class="btn btn-outline" style="font-size:.78rem;padding:10px 20px;">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── ACHIEVEMENTS ───────────────────────────────────────────── -->
+<section id="achievements" class="sec">
+  <div class="sec-label reveal">Achievements</div>
+  <h2 class="sec-title reveal">Recognition &amp;<br><span>Wins</span></h2>
+  <div class="ach-grid">
+    <div class="ach-card reveal"><div class="ach-icon">🏆</div><div class="ach-text"><strong>SIH Internal Winner 2024</strong><span>Won Smart India Hackathon internal round at Poornima Institute.</span></div></div>
+    <div class="ach-card reveal d1"><div class="ach-icon">🥈</div><div class="ach-text"><strong>Regional Finalist – SBI Life Hack-AI-Thon 2024</strong><span>Competed to the regional finals in SBI's national AI hackathon.</span></div></div>
+    <div class="ach-card reveal d2"><div class="ach-icon">💡</div><div class="ach-text"><strong>Participant – Adobe India &amp; DCGC Hackathon 2.0</strong><span>Participated in Adobe India Hackathon and DCGC Hackathon 2.0.</span></div></div>
+    <div class="ach-card reveal d3"><div class="ach-icon">🎓</div><div class="ach-text"><strong>Project Presenter – MNIT &amp; JECRC Exhibitions</strong><span>Presented ML projects at technical exhibitions at MNIT and JECRC.</span></div></div>
+  </div>
+</section>
+
+<!-- ── RESUME ─────────────────────────────────────────────────── -->
+<section id="resume" class="sec">
+  <div class="resume-box reveal">
+    <h2>Want the full picture?</h2>
+    <p>Download my resume for a complete overview of my skills, projects, and experience.</p>
+    <a href="assets/Yash_Khadagta_Resume.pdf" download class="btn btn-primary" style="display:inline-flex;margin:0 auto;">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- ── CONTACT ────────────────────────────────────────────────── -->
+<section id="contact" class="sec">
+  <div class="sec-label reveal">06. Contact</div>
+  <h2 class="sec-title reveal">Let's<br><span>Connect</span></h2>
+  <div class="contact-grid">
+    <div class="reveal">
+      <div class="contact-info">
+        <h3>Got an opportunity?<br>Let's talk.</h3>
+        <p>I'm open to internships, research collaborations, and AI/ML roles. Drop a message and I'll get back to you promptly.</p>
+        <div class="clinks">
+          <a href="mailto:khadagtayash@gmail.com" class="clink"><div class="clink-icon">✉️</div>khadagtayash@gmail.com</a>
+          <a href="https://linkedin.com/in/yash-khadagta" target="_blank" rel="noopener" class="clink"><div class="clink-icon">💼</div>LinkedIn Profile</a>
+          <a href="https://github.com/Yash0584" target="_blank" rel="noopener" class="clink">
+            <div class="clink-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></div>
+            GitHub – Yash0584
+          </a>
+          <a href="tel:+917976953839" class="clink"><div class="clink-icon">📱</div>+91 7976953839</a>
+        </div>
+      </div>
+    </div>
+    <div class="reveal d2">
+      <form id="contactForm" class="cform" onsubmit="return false;">
+        <input type="text"  id="cName"  placeholder="Your Name" autocomplete="name"/>
+        <input type="email" id="cEmail" placeholder="Your Email" autocomplete="email"/>
+        <textarea           id="cMsg"   placeholder="Your Message..." rows="5"></textarea>
+        <div id="formStatus" class="form-status"></div>
+        <button id="sendBtn" type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message &#x2192;</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <span>Yash Khadagta</span> &middot; Jaipur, India &middot; 2025</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
