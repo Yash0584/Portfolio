@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Yash Khadagta's portfolio: AI applications, machine learning, data science, and software engineering projects.">
+  <title>Yash Khadagta — AI & Software Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:light;--bg:#f7f8fa;--surface:#fff;--ink:#18212f;--muted:#637083;--line:#e2e7ee;--accent:#176b5b;--accent-strong:#105244;--accent-soft:#e3f2ed;--warm:#f0a45d;--shadow:0 12px 36px rgba(24,33,47,.06);--radius:20px;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "DM Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}button,input,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #e8a15a;outline-offset:3px}.wrap{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
+    .nav-shell{position:sticky;top:0;z-index:20;background:rgba(247,248,250,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(226,231,238,.85)}nav{min-height:72px;display:flex;align-items:center;gap:28px}.brand{text-decoration:none;font:700 18px "Space Grotesk",sans-serif;letter-spacing:-.04em;white-space:nowrap}.brand span{color:var(--accent)}.nav-links{display:flex;align-items:center;gap:24px;margin-left:auto}.nav-links a{font-size:13px;font-weight:700;text-decoration:none;color:var(--muted);transition:color .2s}.nav-links a:hover,.nav-links a.active{color:var(--accent)}.nav-cta{padding:9px 15px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}.menu-toggle{display:none;background:transparent;border:1px solid var(--line);border-radius:10px;padding:8px 11px;color:var(--ink)}
+    .hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:72px;align-items:center;padding:88px 0 76px;min-height:570px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:22px;height:2px;background:var(--warm)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:"Space Grotesk",sans-serif;letter-spacing:-.045em}h1{font-size:clamp(46px,6.2vw,76px);line-height:1.02;margin:20px 0 20px;max-width:760px}h1 .accent{color:var(--accent)}.hero-copy{font-size:clamp(18px,2vw,21px);line-height:1.65;color:var(--muted);max-width:630px;margin-bottom:30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 18px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:14px;font-weight:700;transition:transform .18s,background .18s,border-color .18s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn-primary:hover{background:var(--accent-strong)}.btn-quiet{background:var(--surface)}.hero-meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:27px;color:var(--muted);font-size:13px}.hero-meta span{display:inline-flex;align-items:center;gap:7px}.dot{width:7px;height:7px;border-radius:50%;background:#36a47d;box-shadow:0 0 0 4px #e0f3eb}.portrait-wrap{position:relative;max-width:330px;width:100%;justify-self:center}.portrait-wrap:before{content:"";position:absolute;inset:22px -18px -18px 22px;border:1px solid #c9ded7;border-radius:32px;z-index:0}.portrait{position:relative;z-index:1;aspect-ratio:4/5;border-radius:28px;overflow:hidden;background:linear-gradient(145deg,#dbece6,#f4e8d9);box-shadow:var(--shadow)}.portrait img{width:100%;height:100%;object-fit:cover;display:block}.portrait-note{position:absolute;z-index:2;bottom:18px;left:-22px;background:var(--surface);padding:13px 16px;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);font-size:12px;color:var(--muted)}.portrait-note strong{display:block;color:var(--ink);font-size:14px}
+    section{padding:82px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}.section-kicker{font-size:12px;color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:7px}.section-head h2{font-size:clamp(30px,4vw,42px);line-height:1.1;margin:0}.section-intro{max-width:450px;color:var(--muted);margin:0;font-size:15px}.about-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr);gap:56px;align-items:start}.about-copy{font-size:17px;color:var(--muted);max-width:70ch}.about-copy p:last-child{margin-bottom:0}.focus-card{padding:25px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}.focus-card h3{font-size:19px;margin-bottom:15px}.focus-list{display:grid;gap:13px;list-style:none;padding:0;margin:0}.focus-list li{display:flex;gap:12px;color:var(--muted);font-size:14px}.focus-list .check{flex:0 0 23px;height:23px;display:grid;place-items:center;border-radius:8px;background:var(--accent-soft);color:var(--accent);font-weight:800}
+    .project-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.filter{border:1px solid var(--line);background:transparent;color:var(--muted);padding:8px 13px;border-radius:999px;cursor:pointer;font-size:12px;font-weight:700}.filter[aria-pressed="true"],.filter:hover{background:var(--accent);border-color:var(--accent);color:#fff}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project-card{position:relative;display:flex;flex-direction:column;gap:16px;min-height:285px;padding:25px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);transition:transform .2s,border-color .2s,box-shadow .2s}.project-card:hover{transform:translateY(-4px);border-color:#b6d2c9;box-shadow:var(--shadow)}.project-card.featured{background:linear-gradient(150deg,#fff 55%,#f0f8f4)}.project-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.project-index{font:600 12px "Space Grotesk",sans-serif;color:#9aa5b4}.project-category{padding:5px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:10px;font-weight:700}.project-card h3{font-size:22px;line-height:1.25;margin:0}.project-card p{color:var(--muted);font-size:14px;line-height:1.7;margin:0;flex:1}.tags{display:flex;flex-wrap:wrap;gap:7px}.tags span{font-size:11px;color:#526174;background:#f0f3f6;padding:5px 9px;border-radius:7px}.project-link{display:inline-flex;align-items:center;gap:8px;width:max-content;color:var(--accent);font-size:13px;font-weight:700;text-decoration:none}.project-link:hover{text-decoration:underline}.project-link .arrow{transition:transform .2s}.project-link:hover .arrow{transform:translateX(3px)}.empty-state{color:var(--muted);padding:24px}
+    .timeline{display:grid;gap:0}.job{display:grid;grid-template-columns:200px minmax(0,1fr);gap:28px;padding:28px 0;border-bottom:1px solid var(--line)}.job:first-child{padding-top:0}.job:last-child{border-bottom:0;padding-bottom:0}.job-when{font-size:12px;font-weight:700;color:var(--muted);padding-top:5px}.job-title{font-size:21px;margin:0 0 4px}.job-org{color:var(--accent);font-weight:700;font-size:14px;margin-bottom:12px}.job ul{margin:0;padding-left:18px;color:var(--muted);font-size:14px}.job li+li{margin-top:7px}
+    .skills-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.skill-card{padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.skill-card h3{font-size:17px;margin-bottom:14px}.skill-list{display:flex;flex-wrap:wrap;gap:8px}.skill-list span{padding:6px 10px;border:1px solid var(--line);border-radius:8px;color:var(--muted);font-size:12px}
+    .credentials-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.credential{padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:16px;display:flex;flex-direction:column;gap:10px;min-height:150px}.credential-icon{width:34px;height:34px;border-radius:10px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-weight:800}.credential h3{font-size:16px;line-height:1.4;margin:0}.credential-meta{color:var(--muted);font-size:12px;margin-top:auto}.achievement-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.achievement{display:flex;gap:15px;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.achievement-mark{flex:0 0 36px;height:36px;border-radius:11px;background:#fff0e2;color:#a45b1e;display:grid;place-items:center;font-weight:800}.achievement h3{font-size:16px;line-height:1.4;margin:0 0 5px}.achievement p{font-size:13px;color:var(--muted);margin:0}
+    .contact-panel{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;padding:36px;background:#172b2a;color:#fff;border-radius:26px}.contact-panel h2{font-size:clamp(30px,4vw,42px);line-height:1.1;margin-bottom:15px}.contact-panel p{color:#c5d5d1;font-size:14px}.contact-links{display:grid;gap:10px;margin-top:24px}.contact-links a{color:#fff;text-decoration:none;font-size:14px}.contact-links a:hover{text-decoration:underline}.contact-form{display:grid;gap:13px}.contact-form label{display:grid;gap:6px;font-size:12px;font-weight:700;color:#dbe7e3}.contact-form input,.contact-form textarea{width:100%;padding:12px 13px;border:1px solid #49615d;border-radius:10px;background:#203a37;color:#fff;resize:vertical}.contact-form input::placeholder,.contact-form textarea::placeholder{color:#a9bdb7}.contact-form .btn{justify-self:start;background:#fff;color:#172b2a;border-color:#fff}.hp{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}#status{min-height:22px;color:#cfe8df;font-size:13px}footer{padding:25px 0 36px;color:var(--muted);font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-links{display:flex;gap:16px}.footer-links a{text-decoration:none}.footer-links a:hover{color:var(--accent)}.fine-print{font-size:11px;color:#8995a5;margin-top:12px}
+    @media(max-width:900px){.hero{gap:36px;padding:68px 0}.nav-links{gap:15px}.nav-links a{font-size:12px}.nav-cta{display:none}.about-grid{gap:28px}.credentials-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.contact-panel{gap:28px;padding:28px}}
+    @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 32px))}.nav-shell{position:sticky}nav{min-height:64px;flex-wrap:wrap;gap:12px}.menu-toggle{display:block;margin-left:auto}.nav-links{display:none;order:3;width:100%;margin:0;padding:0 0 14px;gap:8px;flex-wrap:wrap}.nav-links.open{display:flex}.nav-links a{padding:8px 10px;background:var(--surface);border:1px solid var(--line);border-radius:999px}.hero{grid-template-columns:1fr;gap:36px;padding:48px 0 58px;min-height:auto}.hero-copy{font-size:18px}.portrait-wrap{max-width:230px;grid-row:1}.portrait-note{left:-10px;bottom:12px}.hero-content{grid-row:2}section{padding:60px 0}.section-head{display:block;margin-bottom:25px}.section-intro{margin-top:12px}.about-grid,.contact-panel{grid-template-columns:1fr}.project-grid,.skills-grid,.achievement-list{grid-template-columns:1fr}.project-card{min-height:0;padding:21px}.job{grid-template-columns:1fr;gap:7px;padding:24px 0}.job-when{padding:0}.credentials-grid{grid-template-columns:1fr 1fr}.contact-panel{padding:24px;border-radius:20px}.contact-panel h2{font-size:34px}}
+    @media(max-width:400px){.credentials-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%}.hero-meta{gap:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="nav-shell"><nav class="wrap" aria-label="Main navigation">
+    <a class="brand" href="#top">Yash<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></div>
+    <a class="nav-cta" href="#contact">Let's connect ↗</a>
+  </nav></div>
+  <main class="wrap" id="top">
+    <header class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">Computer Science · AI & Software</div>
+        <h1>Hey, I'm <span class="accent" id="hero-name">Yash Khadagta</span>.</h1>
+        <p class="hero-copy" id="tagline">I build AI-powered applications and machine learning systems that solve real-world problems.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="btn btn-quiet" id="resume" href="/Yash_Khadagta_Resume.pdf" download>Download résumé ↓</a></div>
+        <div class="hero-meta"><span><i class="dot" aria-hidden="true"></i> Open to software & AI opportunities</span><span id="location">Jaipur, India</span></div>
+      </div>
+      <div class="portrait-wrap"><div class="portrait"><img id="profile-image" src="/images/profile.jpg" alt="Portrait of Yash Khadagta"></div><div class="portrait-note"><strong>Build · Learn · Improve</strong>Practical projects, thoughtful engineering</div></div>
+    </header>
+
+    <section id="about">
+      <div class="section-head"><div><div class="section-kicker">A little about me</div><h2>Curious by nature.<br>Builder by practice.</h2></div><p class="section-intro">I like making technical ideas useful: from document-grounded AI assistants to tools that solve everyday software problems.</p></div>
+      <div class="about-grid"><div class="about-copy" id="about-text"></div><aside class="focus-card"><h3>What I enjoy working on</h3><ul class="focus-list"><li><span class="check">✓</span><span>AI applications grounded in useful data and documents</span></li><li><span class="check">✓</span><span>Machine learning workflows, evaluation, and data analysis</span></li><li><span class="check">✓</span><span>Backend APIs and complete, usable software projects</span></li></ul></aside></div>
+    </section>
+
+    <section id="projects">
+      <div class="section-head"><div><div class="section-kicker">Selected work</div><h2>Projects I can talk through.</h2></div><p class="section-intro">A mix of AI, machine learning, data work, and application engineering. Each project links to its source or live experience.</p></div>
+      <div class="project-toolbar" id="project-filters" aria-label="Filter projects"><button class="filter" data-filter="All" aria-pressed="true">All projects</button></div>
+      <div class="project-grid" id="project-grid"><p class="empty-state">Loading projects…</p></div>
+    </section>
+
+    <section id="experience">
+      <div class="section-head"><div><div class="section-kicker">Where I've contributed</div><h2>Experience.</h2></div><p class="section-intro">Hands-on work applying data science and machine learning to practical problems.</p></div>
+      <div class="timeline" id="jobs"></div>
+    </section>
+
+    <section id="skills">
+      <div class="section-head"><div><div class="section-kicker">Tools & fundamentals</div><h2>My toolkit.</h2></div><p class="section-intro">A working set of languages, concepts, and frameworks used across my projects. The emphasis is on applying tools, not just listing them.</p></div>
+      <div class="skills-grid" id="skill-grid"></div>
+    </section>
+
+    <section id="credentials">
+      <div class="section-head"><div><div class="section-kicker">Learning & recognition</div><h2>Certifications.</h2></div><p class="section-intro">Formal courses and credentials are listed here. Competitions, awards, and presentations are kept separate below.</p></div>
+      <div class="credentials-grid" id="cert-grid"></div>
+      <div style="height:62px" aria-hidden="true"></div>
+      <div class="section-head"><div><div class="section-kicker">Beyond coursework</div><h2>Achievements.</h2></div><p class="section-intro">Competition results, recognition, and technical presentations — not repeated as certifications.</p></div>
+      <div class="achievement-list" id="wins-list"></div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-panel"><div><div class="section-kicker" style="color:#9dd7c5">Have a role or project in mind?</div><h2>Let's build something useful.</h2><p>If you're hiring for an AI, data, or software development role, or want to discuss a project, feel free to reach out.</p><div class="contact-links" id="contact-links"><a href="mailto:khadagtayash@gmail.com">khadagtayash@gmail.com</a></div></div>
+        <form class="contact-form" id="contact-form" novalidate><label>Name<input name="name" placeholder="Your name" required maxlength="100" autocomplete="name"></label><label>Email<input name="email" type="email" placeholder="you@example.com" required maxlength="254" autocomplete="email"></label><label>Message<textarea name="message" rows="4" placeholder="What would you like to discuss?" required minlength="10" maxlength="2000"></textarea></label><label class="hp" aria-hidden="true">Leave this field empty<input name="website" tabindex="-1" autocomplete="off"></label><button class="btn" type="submit">Send message <span aria-hidden="true">↗</span></button><div id="status" role="status" aria-live="polite"></div></form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap"><div class="footer-inner"><span id="foot-copy">© Yash Khadagta</span><div class="footer-links" id="footer-links"></div><a href="#top">Back to top ↑</a></div><div class="fine-print">Built with HTML, CSS, JavaScript, and a small Node.js backend.</div></div></footer>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    let allProjects = [];
+    function renderProjects(filter = 'All') {
+      const list = filter === 'All' ? allProjects : allProjects.filter(p => p.category === filter);
+      $('project-grid').innerHTML = list.length ? list.map((p, i) => `<article class="project-card ${p.featured ? 'featured' : ''}"><div class="project-top"><span class="project-index">PROJECT ${(i + 1).toString().padStart(2,'0')}</span><span class="project-category">${esc(p.category || 'Project')}</span></div><h3>${esc(p.title)}</h3><p>${esc(p.desc)}</p><div class="tags">${(p.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div><a class="project-link" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.linkLabel || 'View project')} <span class="arrow" aria-hidden="true">↗</span></a></article>`).join('') : '<p class="empty-state">No projects in this category yet.</p>';
+    }
+    function setupFilters(projects) {
+      const categories = ['All', ...new Set(projects.map(p => p.category).filter(Boolean))];
+      $('project-filters').innerHTML = categories.map((category, i) => `<button class="filter" data-filter="${esc(category)}" aria-pressed="${i === 0 ? 'true' : 'false'}">${esc(category === 'All' ? 'All projects' : category)}</button>`).join('');
+      $('project-filters').addEventListener('click', e => {
+        const button = e.target.closest('button[data-filter]'); if (!button) return;
+        $('project-filters').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+        renderProjects(button.dataset.filter);
+      });
+    }
+    async function loadPortfolio() {
+      const response = await fetch('/api/portfolio', { headers: { 'Accept': 'application/json' } });
+      if (!response.ok) throw new Error('Portfolio content could not be loaded.');
+      const d = await response.json();
+      document.title = `${d.name} — AI & Software Portfolio`;
+      $('hero-name').textContent = d.name;
+      $('tagline').textContent = d.tagline;
+      $('about-text').innerHTML = String(d.about || '').split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join('');
+      $('resume').href = d.resume || '/Yash_Khadagta_Resume.pdf';
+      $('location').textContent = d.location || '';
+      allProjects = Array.isArray(d.projects) ? d.projects : [];
+      setupFilters(allProjects); renderProjects();
+      $('jobs').innerHTML = (d.experience || []).map(j => `<article class="job"><div class="job-when">${esc(j.when)}</div><div><h3 class="job-title">${esc(j.title)}</h3><div class="job-org">${esc(j.org)}</div><ul>${(j.points || []).map(point => `<li>${esc(point)}</li>`).join('')}</ul></div></article>`).join('');
+      $('skill-grid').innerHTML = Object.entries(d.skills || {}).map(([name, skills]) => `<article class="skill-card"><h3>${esc(name)}</h3><div class="skill-list">${skills.map(skill => `<span>${esc(skill)}</span>`).join('')}</div></article>`).join('');
+      $('cert-grid').innerHTML = (d.certifications || []).map(c => `<article class="credential"><div class="credential-icon" aria-hidden="true">✓</div><h3>${esc(c.title)}</h3><div class="credential-meta">${esc(c.issuer)}${c.year ? ` · ${esc(c.year)}` : ''}</div></article>`).join('');
+      $('wins-list').innerHTML = (d.achievements || []).map(a => `<article class="achievement"><div class="achievement-mark" aria-hidden="true">✦</div><div><h3>${esc(typeof a === 'string' ? a : a.title)}</h3><p>${esc(typeof a === 'string' ? '' : a.detail)}</p></div></article>`).join('');
+      const links = `<a href="mailto:${esc(d.email)}">${esc(d.email)}</a>${d.github ? `<a href="${esc(d.github)}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>` : ''}${d.linkedin ? `<a href="${esc(d.linkedin)}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>` : ''}`;
+      $('contact-links').innerHTML = links; $('footer-links').innerHTML = links.replaceAll('mailto:', 'mailto:');
+      $('foot-copy').textContent = `© ${new Date().getFullYear()} ${d.name}`;
+    }
+    $('contact-form').addEventListener('submit', async (event) => {
+      event.preventDefault(); const form = event.currentTarget, status = $('status'), button = form.querySelector('button[type="submit"]');
+      if (!form.reportValidity()) return;
+      status.textContent = 'Sending…'; button.disabled = true;
+      try {
+        const response = await fetch('/api/contact', { method: 'POST', headers: {'Content-Type':'application/json','Accept':'application/json'}, body: JSON.stringify(Object.fromEntries(new FormData(form))) });
+        const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Message could not be sent.');
+        status.textContent = 'Message sent. Thanks for reaching out!'; form.reset();
+      } catch (error) { status.textContent = error.message || 'Could not send the message. Please email me directly.'; }
+      finally { button.disabled = false; }
+    });
+    $('menu-toggle').addEventListener('click', () => { const open = $('nav-links').classList.toggle('open'); $('menu-toggle').setAttribute('aria-expanded', String(open)); });
+    $('nav-links').addEventListener('click', e => { if (e.target.closest('a')) { $('nav-links').classList.remove('open'); $('menu-toggle').setAttribute('aria-expanded','false'); } });
+    loadPortfolio().catch(error => { $('tagline').textContent = error.message; $('project-grid').innerHTML = '<p class="empty-state">Start the Node.js server with <code>npm start</code> to load portfolio content.</p>'; });
+  </script>
+</body>
+</html>

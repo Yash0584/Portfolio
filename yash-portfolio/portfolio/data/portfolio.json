@@ -1,0 +1,108 @@
+{
+  "name": "Yash Khadagta",
+  "role": "AI & Machine Learning Engineer | Software Developer",
+  "tagline": "I build AI-powered applications and machine learning systems that solve real-world problems.",
+  "about": "I'm a final-year B.Tech Computer Science student at Poornima Institute of Engineering & Technology, Jaipur, interested in building practical AI applications and reliable software.\n\nAt Celebal Technologies, I worked on a RAG-based loan advisory chatbot that answers questions using official banking documents. At KisTechno Software, I worked on an AI-powered phishing-detection system combining a machine-learning model with Google Safe Browsing.\n\nI enjoy taking projects from problem definition to implementation, connecting machine learning with useful interfaces, APIs, and data workflows. I'm focused on strengthening my engineering fundamentals while building software that is useful beyond a demo.",
+  "email": "khadagtayash@gmail.com",
+  "location": "Jaipur, India",
+  "github": "https://github.com/Yash0584",
+  "linkedin": "https://www.linkedin.com/in/yash-khadagta-b06b76290",
+  "resume": "/Yash_Khadagta_Resume.pdf",
+  "experience": [
+    {
+      "title": "Data Science Intern",
+      "org": "Celebal Technologies",
+      "when": "May 2026 – Jul 2026",
+      "points": [
+        "Developed an AI-powered loan advisory chatbot using RAG, Gemini 2.5 Flash, Sentence Transformers, FAISS, and a GRU-based intent classifier.",
+        "Built a PDF processing and semantic retrieval pipeline to generate answers grounded in banking documents, with source attribution in a Streamlit interface."
+      ]
+    },
+    {
+      "title": "AI/ML Developer",
+      "org": "KisTechno Software",
+      "when": "Jun 2025 – Sep 2025",
+      "points": [
+        "Developed a phishing-detection browser middleware using a Random Forest model trained on a dataset of more than 2 million URLs.",
+        "Integrated Google Safe Browsing API checks into the URL classification workflow."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Loan Advisory Chatbot",
+      "category": "Generative AI",
+      "desc": "A retrieval-augmented assistant that answers loan eligibility, rates, fees, and document questions from banking documents, with source-grounded responses.",
+      "tags": ["Python", "RAG", "Gemini", "Sentence Transformers", "FAISS", "Streamlit"],
+      "url": "https://github.com/Yash0584/AI-Loan-Advisory-Chatbot",
+      "linkLabel": "View source",
+      "featured": true
+    },
+    {
+      "title": "Phish-Proof Hybrid AI Middleware",
+      "category": "Machine Learning",
+      "desc": "A browser security workflow that combines Random Forest URL classification with Google Safe Browsing checks to help identify suspicious links.",
+      "tags": ["Python", "Scikit-learn", "Flask", "Chrome Extension", "Safe Browsing API"],
+      "url": "https://github.com/Yash0584/Phish-Proof-Hybrid-AI-Middleware-Chrome-Extension",
+      "linkLabel": "View source",
+      "featured": true
+    },
+    {
+      "title": "EcoSphere AI — Carbon Credit Platform",
+      "category": "Full-Stack / AI",
+      "desc": "A sustainability-focused web platform exploring AI-assisted carbon-credit workflows. The live site demonstrates the current product experience.",
+      "tags": ["Web Application", "Sustainability", "AI Product"],
+      "url": "https://carboncredit-ten.vercel.app/",
+      "linkLabel": "View live site",
+      "featured": true
+    },
+    {
+      "title": "SeatFlow — Seat Booking Platform",
+      "category": "Software Engineering",
+      "desc": "An event-seat booking application with authentication, temporary seat holds, booking history, and a simulated payment flow. Designed to address competing bookings and seat-state consistency.",
+      "tags": ["Python", "FastAPI", "SQLAlchemy", "JWT", "SQLite / MySQL", "Jinja2"],
+      "url": "https://github.com/Yash0584/Seat-Booking",
+      "linkLabel": "View source",
+      "featured": true
+    },
+    {
+      "title": "Global Mortality Data Analysis",
+      "category": "Data Science",
+      "desc": "A data-analysis and regression project using preprocessing and feature engineering to explore and model mortality trends.",
+      "tags": ["Python", "Pandas", "Scikit-learn", "Regression"],
+      "url": "https://github.com/Yash0584/Global-Mortality-Data-Analysis",
+      "linkLabel": "View source",
+      "featured": false
+    },
+    {
+      "title": "Customer Purchase Behavior Analysis",
+      "category": "Data Science",
+      "desc": "Explores customer and product trends across demographic and geographic attributes, translating analysis into potential business recommendations.",
+      "tags": ["Python", "Pandas", "Data Visualization", "EDA"],
+      "url": "https://github.com/Yash0584/Customer-Purchase-Behavior",
+      "linkLabel": "View source",
+      "featured": false
+    }
+  ],
+  "skills": {
+    "Programming & CS": ["Python", "Java", "SQL", "C++", "OOP", "Data Structures & Algorithms", "DBMS"],
+    "Machine Learning": ["Scikit-learn", "Classification", "Regression", "Feature Engineering", "Model Evaluation", "Random Forest"],
+    "Generative AI & NLP": ["LLMs", "RAG", "Prompt Engineering", "Sentence Transformers", "FAISS", "Gemini API", "GRU"],
+    "Data & Development Tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "FastAPI", "Flask", "MySQL", "Git", "GCP"]
+  },
+  "certifications": [
+    { "title": "Oracle Cloud Infrastructure — Certified Generative AI Professional", "issuer": "Oracle", "year": "2025" },
+    { "title": "Data Analytics Track", "issuer": "Google Cloud Launchpad", "year": "Completed" },
+    { "title": "Data Structures & Algorithms using Java", "issuer": "NPTEL · IIT Madras", "year": "Completed" },
+    { "title": "Programming in Modern C++", "issuer": "NPTEL", "year": "Completed" },
+    { "title": "Programming in C", "issuer": "NPTEL", "year": "Completed" },
+    { "title": "Python for Data Science", "issuer": "NPTEL", "year": "Completed" }
+  ],
+  "achievements": [
+    { "title": "Winner — Smart India Hackathon internal selection", "detail": "Recognized in internal selections in 2024 and 2026." },
+    { "title": "Regional Finalist — SBI Life Hack-AI-Thon", "detail": "2024" },
+    { "title": "NPTEL Discipline Star", "detail": "Recognized for performance across multiple NPTEL courses, Jan–Apr 2026." },
+    { "title": "Project Presenter", "detail": "Presented project work at technical exhibitions hosted by MNIT and JECRC." },
+    { "title": "Hackathon Participation", "detail": "Participated in Adobe India Hackathon, DCGC Hackathon 2.0, and SIH internal selection (2025)." }
+  ]
+}

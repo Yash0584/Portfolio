@@ -1,0 +1,13 @@
+{
+  "name": "yash-khadagta-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Personal portfolio with a responsive frontend and dependency-free Node.js contact API.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
